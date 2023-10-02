@@ -1,0 +1,23 @@
+.cookie {
+  position: fixed;
+  right: 32px;
+  bottom: 32px;
+  background-color: var(--color-accent);
+  padding: 48px;
+  color: var(--color-white);
+
+  &__desc {
+    max-width: 275px;
+    margin-bottom: 2px;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.5px;
+  }
+  &__button {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    color: var(--color-white) !important;
+    border-color: var(--color-white) !important;
+  }
+}

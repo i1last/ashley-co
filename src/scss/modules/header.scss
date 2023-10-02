@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 26px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+
+  &__options {
+    display: flex;
+    align-items: center;
+  }
+  &__cart {
+    margin-right: 40px;
+    text-transform: uppercase;
+  }
+  &__hamburger {
+    cursor: pointer;
+  }
+}

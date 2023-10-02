@@ -1,0 +1,19 @@
+.sec__subtitle {
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+
+  &--template-2 {
+    color: #b2b2b2;
+    position: relative;
+    left: 40px;
+    top: 40px;
+  }
+  &--template-4 {
+    margin-bottom: 12px;
+  }
+  &--template-6 {
+    margin-bottom: 12px;
+  }
+}
